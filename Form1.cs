@@ -33,7 +33,7 @@ namespace ConnectPostgre
         public NpgsqlCommand ComandoSQL;
         public NpgsqlDataReader LerRegistro;
         public string strCon =
-            "Server =localhost;Port=5432;Username=postgres;password=1243;Database=bancox";
+            "Server =localhost;Port=5432;Username=postgres;password= ;Database=bancox";
         public string strSQL = "";
 
         // Não esquecer de programar o evento "Load" do Form1
